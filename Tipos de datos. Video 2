@@ -1,0 +1,23 @@
+//Tipos de datos en C++
+
+#include<iostream>
+
+using namespace std;
+
+int main() {
+	//int es para un dato entero
+	int entero = 15;
+	
+	//float es para un decimal
+	float flotante = 10.45;
+	
+	//double es para un decimal más extenso
+	double mayor = 16.3456;
+	
+	//char es para caracteres
+	char letra = 'a';
+	
+	cout<<letra;
+	
+	return 0;
+}
