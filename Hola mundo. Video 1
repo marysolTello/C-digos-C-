@@ -1,0 +1,38 @@
+//Video 1
+
+//Programa de práctica
+/*
+iostream significa input y output
+Esto significa que nos va a permitir la entrada
+y salida de datos
+Es una librería estandar
+*/
+
+#include<iostream>
+
+/*
+Si no se pone esta instrucción
+cada vez que se quiera imprimir algo en pantalla
+se tendría que poner std: :cout<<
+Con esto se ponen los flujos de entrada y salida
+*/
+using namespace std;
+
+/*
+int main es la funció principal del programa
+Es en donde se pondrá todo el código
+*/
+int main(){
+	/*
+	Para hacer un salto de linea se puede usar
+	endl o \n
+	*/
+	cout<<"Hola mundo!"<<endl;
+	
+	/*la función principal es de tipo entero
+	necesita retornar un valor (0) para indicar
+	que todo finalizó correctamente
+	*/
+	return 0;
+	
+}
