@@ -1,0 +1,27 @@
+/*
+Cálculo de la media de las notas de 4 alumnos. Video 8
+*/
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	
+	float nota1, nota2, nota3, nota4, media = 0;
+	
+	cout<<"Ingrese la nota del primer alumno: ";
+	cin>>nota1;
+	cout<<"\nIngrese la nota del segundo alumno: ";
+	cin>>nota2;
+	cout<<"\nIngrese la nota del tercer alumno: ";
+	cin>>nota3;
+	cout<<"\nIngrese la nota del cuarto alumno: ";
+	cin>>nota4;
+	
+	media = (nota1 + nota2 + nota3 + nota4)/4;
+	
+	cout<<"La media de las notas de los 4 alumnos es: "<<media<<endl;
+	
+	return 0;
+}
