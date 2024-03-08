@@ -1,0 +1,24 @@
+/*
+Calculo de hipotenusa. Video 9
+*/
+
+#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int main(){
+	
+	double catetoOpuesto, catetoAdyacente, hipotenusa = 0;
+	
+	cout<<"Digite el cateto opuesto: ";
+	cin>>catetoOpuesto;
+	cout<<"\nDigite el cateto adyacente: ";
+	cin>>catetoAdyacente;
+	
+	hipotenusa = sqrt(pow(catetoOpuesto, 2)+pow(catetoAdyacente, 2));
+	
+	cout<<"\nLa hipotenusa del triangulo es: "<<hipotenusa;
+	
+	return 0;
+}
