@@ -1,0 +1,22 @@
+/*
+Calculo IVA. Video 4
+*/
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	
+	int precio = 0, iva = 0, precioiva = 0;
+	
+	cout<<"Ingrese el precio del producto: ";
+	cin>>precio;
+	
+	iva = (21 * precio) / 100;
+	precioiva = precio + iva;
+	
+	cout<<"\nEl precio con IVA aplicado es de: "<<precioiva<<endl;
+	
+	return 0;
+}
