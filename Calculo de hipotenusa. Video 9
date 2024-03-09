@@ -11,14 +11,14 @@ int main(){
 	
 	double catetoOpuesto, catetoAdyacente, hipotenusa = 0;
 	
-	cout<<"Digite el cateto opuesto: ";
+	cout<<"Digite la dimensión del cateto opuesto: ";
 	cin>>catetoOpuesto;
-	cout<<"\nDigite el cateto adyacente: ";
+	cout<<"\nDigite la dimensión del cateto adyacente: ";
 	cin>>catetoAdyacente;
 	
 	hipotenusa = sqrt(pow(catetoOpuesto, 2)+pow(catetoAdyacente, 2));
 	
-	cout<<"\nLa hipotenusa del triangulo es: "<<hipotenusa;
+	cout<<"\nLa hipotenusa del triángulo es: "<<hipotenusa;
 	
 	return 0;
 }
