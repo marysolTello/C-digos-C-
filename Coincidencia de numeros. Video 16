@@ -1,0 +1,26 @@
+/*
+Coincidencia de numeros. Video 16
+*/
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	
+	int numero1, numero2, numero3, numero4;
+	
+	cout<<"Digite tres numeros: ";
+	cin>>numero1>>numero2>>numero3;
+	cout<<"Ahora digite un cuarto numero: ";
+	cin>>numero4;
+	
+	if((numero4==numero1) or (numero4==numero2) or (numero4==numero3)){
+		cout<<"El ultimo numero ingresado coicide con uno de los numeros ingresados con anterioridad";
+	}
+	else{
+		cout<<"El ultimo numero ingresado no coincide con ninguno de los numeros ingresados con anterioridad";
+	}
+	
+	return 0;
+}
