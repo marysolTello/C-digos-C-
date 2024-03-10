@@ -1,0 +1,28 @@
+/*
+Numero par o impar. Video 14
+*/
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	
+	int numero;
+	
+	cout<<"Digite un numero: ";
+	cin>>numero;
+	
+	if(numero == 0){
+		cout<<"El numero es 0";
+	}
+	//% divide por un numero y calcula el resto
+	else if(numero%2 == 0){
+		cout<<"El numero es par";
+	}
+	else {
+		cout<<"El numero es impar";
+	}
+	
+	return 0;
+}
