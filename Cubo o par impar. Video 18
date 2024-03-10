@@ -1,0 +1,41 @@
+/*
+Menu cubo o par impar. Video 18
+*/
+
+#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int main(){
+	int opcion, numero;
+	float cubo;
+	
+	cout<<"Ingrese un numero: ";
+	cin>>numero;
+	
+	cout<<"\tMenu"<<endl;
+	cout<<"1. Calcular el cubo de un numero"<<endl;
+	cout<<"2. Determinar si un numero es par o impar"<<endl;
+	cout<<"3. Salir"<<endl;
+	cout<<"Ingrese la opcion que desea ejecutar: ";
+	cin>>opcion;
+	
+	switch(opcion){
+		case 1:
+			cubo = pow(numero,3);
+			cout<<"El cubo del numero es: "<<cubo<<endl;
+			break;
+		case 2:
+			if(numero%2==0){
+				cout<<"El numero es par";
+			}
+			else{
+				cout<<"El numero es impar";
+			}
+		case 3:
+			break;
+	}
+	
+	return 0;
+}
