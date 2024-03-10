@@ -1,0 +1,25 @@
+/*
+Numeros mayores a 0. Video 22
+*/
+
+#include<iostream>
+#include<stdlib.h>
+
+using namespace std;
+
+int main(){
+	int numero, mayorcero = 0;
+	
+	do{
+		cout<<"Introduzca un numero: ";
+		cin>>numero;
+		if(numero > 0){
+			mayorcero++;
+		}
+	}while(numero!=0);
+	cout<<"El numero de veces que se introdujo un numero mayor a 0 fue: "<<mayorcero<<endl;
+	
+	
+	system("pause");
+	return 0;
+}
