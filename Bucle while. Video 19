@@ -1,0 +1,27 @@
+/*
+Bucle while. Video 19
+*/
+
+#include<iostream>
+//esta librería es para que el ejecutable no se cierre
+#include<conio.h>
+
+using namespace std;
+
+int main(){
+	int i = 10;
+	
+	//Mientras se cumpla la condicion, se ejecutan las instrucciones
+	while(i>=1){
+		cout<<i<<endl;
+		//i va a aumentar de 1 en 1
+		i--;
+	}
+	
+	/*
+	funcion del conio.h
+	Con esto el ejecutable va a esperar a que nosotros lo terminemos y cerremos
+	*/
+	getch();
+	return 0;
+}
