@@ -1,0 +1,29 @@
+/*
+Ejercicio de tarea. Video 13
+*/
+
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	
+	int numero1, numero2, numero3;
+	cout<<"Digite tres numeros: ";
+	cin>>numero1>>numero2>>numero3;
+	
+	if(numero1 > numero2 and numero1> numero3){
+		cout<<"El mayor es: "<<numero1;
+	}
+	else if(numero2 > numero1 and numero2 > numero3){
+		cout<<"El mayor es: "<<numero2;
+	}
+	else if(numero3 > numero1 and numero3 > numero2){
+		cout<<"El mayor es: "<<numero3;
+	}
+	else{
+		cout<<"Hay numeros iguales";
+	}
+	
+	return 0;
+}
