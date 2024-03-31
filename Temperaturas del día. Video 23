@@ -1,0 +1,31 @@
+/*
+Temperaturas del día. Video 23
+*/
+
+#include <iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	double temp, total = 0, media=0, tempmay=0, tempmen=100;
+	
+	for (int i=0; i<=23; i+=4){
+		cout<<"Ingrese la temperatura a las "<<i<<" horas"<<endl;
+		cin>>temp;
+		total += temp;
+		if (temp>tempmay){
+			tempmay = temp;
+		}
+		if (temp<tempmen){
+			tempmen = temp;
+		}
+	}
+	media = total/6;
+	cout<<"La temperatura media del día fue: "<<media<<endl;
+	cout<<"La temperatura mayor fue: "<<tempmay<<endl;
+	cout<<"La temperatura menor fue: "<<tempmen<<endl;
+	
+	getch();
+	return 0;
+}
