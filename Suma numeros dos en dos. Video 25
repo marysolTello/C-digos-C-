@@ -1,0 +1,23 @@
+/*
+suma de numeros de 2 en 2. Video 25
+*/
+
+#include <iostream>
+#include<stdlib.h>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	int n, suma =0;
+	
+	cout<<"Digite el numero de elementos: ";
+	cin>>n;
+	
+	for(int i=1;i<=n;i+=2){
+		suma += i;
+	}
+	
+	cout<<"\nLa suma es: "<<suma<<endl;
+	
+	system("pause");
+	return 0;
+}
