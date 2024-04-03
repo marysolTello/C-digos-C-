@@ -1,0 +1,29 @@
+/*
+Suma y resta de numeros. Video 27
+*/
+
+#include <iostream>
+#include<stdlib.h>
+
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	int resultado =0, n;
+		
+	cout<<"Digite el numero de elementos a sumar: ";
+	cin>>n;
+	for(int i=1;i<=n;i++){
+		if(i%2==0){
+			resultado-=i;
+		}else{
+			resultado+=i;
+		}
+	}
+		
+	cout<<"\nLa suma total es: "<<resultado<<endl;
+		
+	system("pause");
+	
+	
+	return 0;
+}
